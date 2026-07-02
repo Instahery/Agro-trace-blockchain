@@ -24,6 +24,10 @@
 
 ---
 
+
+
+
+
 ## 1. OVERVIEW & OBJECTIVES
 
 ### 🎯 Vision
@@ -132,6 +136,65 @@ Membangun sistem perhitungan karbon **terintegrasi end-to-end** yang menghubungk
 | Weather API | NASA POWER | Weather data |
 | UV API | OpenUV | UV data |
 
+
+
+
 ---
 
-## 4. SYSTEM ARCHITECTURE
+## 5. 8-WEEK TIMELINE
+
+### 🗓️ WEEK 1: Foundation (1-7 Juli 2026)
+
+**Goals:**
+- ✅ Setup database schema baru
+- ✅ Backup database existing
+- ✅ Setup Git repository structure
+- ✅ Test koneksi ke NASA POWER & OpenUV
+
+**Tasks:**
+```sql
+-- File: database/schema_upgrade.sql
+-- Tambah tabel:
+-- 1. land_plots (GeoJSON polygon)
+-- 2. purchases (transaksi pembelian)
+-- 3. carbon_calculations (hasil hitung karbon)
+-- 4. product_passports (blockchain metadata)
+-- 5. batches (aggregation untuk ekspor)
+-- 6. facilitator_activities (field visits)
+
+---
+## 📚 REFERENCES
+
+Standards
+--    GS1 Digital Link Standard v1.3
+--    EU Deforestation Regulation (EUDR) 2023/1115
+--    Verra VM0047 (ARR Methodology)
+--    ISO 19156 (Geographic Information)
+
+APIs
+--    NASA POWER: (https://power.larc.nasa.gov/api/)
+--    BMKG API
+--    OpenUV: (https://openuv.io/)
+--    Polygon: (https://polygon.technology/)
+--    Groq: (https://groq.com/)
+
+Academic
+--    JEECS Journal (IEEE format) - manuscript in progress
+--    ICRAF - Carbon sequestration in agroforestry
+--    CGIAR - Multi-strata agroforestry studies
+
+📞 CONTACT & SUPPORT
+-- Project Lead: Finance & Operations Manager, KGF
+-- Email: heriadi@klumbayanfarm.com
+-- GitHub: https://github.com/Instahery
+
+📝 CHANGELOG
+v1.0 (2 Juli 2026)
+
+   -- Initial roadmap creation
+   -- 8-week timeline defined
+   -- Database schema designed
+   -- API endpoints specified
+   -- Blockchain architecture planned
+
+-- © 2026 PT Klumbayan Gold Farm. All Rights Reserved. --
