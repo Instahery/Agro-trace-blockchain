@@ -1,0 +1,23 @@
+Phase 5 — Parser Improvement
+Berhasil:
+membaca paragraph
+membaca table
+normalisasi text
+Google Docs Export
+
+Masih dalam pengembangan:
+image extraction
+table JSON
+metadata extraction
+
+
+
+Phase 6 — Dashboard
+Membangun Dashboard Enterprise AI
+Widget:
+Total Documents
+Parsed
+Pending
+Completed AI
+Repository
+Action
