@@ -1,0 +1,37 @@
+Phase 3 — Document Repository
+Membangun tabel:
+documents
+
+Menyimpan:
+UUID
+Metadata
+Original Filename
+MIME Type
+Storage Path
+Parser Status
+AI Status
+
+Perubahan penting:
+document_id
+INT
+↓
+VARCHAR(256)
+menggunakan SHA256 / UUID
+Agar konsisten untuk seluruh jenis repository.
+
+
+Phase 4 — Document Pipeline
+Membangun parser otomatis.
+Support:
+✔ DOCX
+✔ PDF
+✔ Google Docs
+Pipeline:
+Import
+↓
+Extract Text
+↓
+Save document_text
+↓
+
+AI Ready
