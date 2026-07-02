@@ -1,0 +1,71 @@
+Phase 9 — DocumentPipeline V3 (Planning)
+
+Direncanakan penambahan:
+Extract Text
+Extract Images
+Extract Tables
+Extract Metadata
+Build Chunks
+Embedding
+Knowledge
+
+Target:
+Enterprise Document Intelligence
+Planned Database
+document_images
+Menyimpan seluruh gambar DOCX/PDF
+document_tables
+Menyimpan tabel sebagai JSON
+document_chunks
+Menyimpan chunk untuk RAG
+AI Roadmap
+
+Tahap berikutnya:
+AI Summary
+Keywords
+Named Entity
+Classification
+Embedding
+Knowledge Graph
+Enterprise Search
+AI Assistant
+
+
+Long Term Vision
+Enterprise AI Platform
+Repository
+↓
+Parser
+↓
+Knowledge Base
+↓
+Enterprise Search
+↓
+AI Assistant
+↓
+Decision Support System
+
+
+Current Status
+Repository : 90%
+Parser : 90%
+Dashboard : 95%
+Viewer : 60%
+
+AI Analyzer : Planning July 20206
+Enterprise Search : Planning July 20206
+Repository Engine V3 : Planning July 20206
+DocumentPipeline V3 : Planning July 20206
+
+Version
+Current Development
+Enterprise AI v2.0  May June 2026
+
+Next Milestone
+Enterprise AI v3.0 July 20206
+Repository Engine July 20206
+Database Queue July 20206
+Document Intelligence July 20206
+RAG Ready July 20206
+
+Knowledge Graph Ready
