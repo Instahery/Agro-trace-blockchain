@@ -1,0 +1,38 @@
+Phase 8 — Repository Engine V2
+Mulai membangun Repository Progress.
+
+Tabel baru:
+repository_progress
+repository_queue
+repository_logs
+repository_sync_state
+
+Target:
+Real-time Monitoring
+Queue Management
+Resume
+Stop
+Progress Bar
+Issue Found
+
+
+Selama implementasi ditemukan:
+repository_progress tidak terisi.
+repository_queu tidak terisi.
+STOP belum bekerja.
+Progress masih menggunakan progress.json.
+
+Kesimpulan:
+Engine masih merupakan campuran V1 dan V2.
+Diputuskan melakukan redesign menuju Repository Engine V3.
+
+Decision
+Repository Engine V3 akan menggunakan Database sebagai Single Source of Truth.
+progress.json DIHAPUS
+
+Semua monitoring berasal dari:
+repository_progress
+repository_queue
+repository_logs
+
+repository_sync_state
