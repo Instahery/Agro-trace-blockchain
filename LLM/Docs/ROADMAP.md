@@ -2,7 +2,7 @@
 
 ## Vision
 
-> **Enterprise AI Document Intelligence Platform**
+> **Klumbayan Enterprise AI Document Intelligence Platform**
 >
 > Transforming documents into organizational knowledge through AI, Retrieval-Augmented Generation (RAG), and Knowledge Graph.
 
