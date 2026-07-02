@@ -1,0 +1,28 @@
+Phase 6 — Dashboard
+Membangun Dashboard Enterprise AI
+Widget:
+Total Documents
+Parsed
+Pending
+Completed AI
+Repository
+Action
+
+
+Phase 7 — Document Viewer
+Membangun halaman:
+document/view.php
+Menampilkan:
+Metadata
+Parser Status
+AI Status
+Full Text
+
+Tahap berikutnya:
+
+PDF Preview
+DOCX Preview
+AI Summary
+Keywords
+Entity
+Related Documents
