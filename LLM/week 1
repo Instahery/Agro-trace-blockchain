@@ -1,0 +1,12 @@
+Phase 1 — Repository Architecture
+Objective
+
+Membangun Enterprise Repository yang mampu mengimpor dokumen dari berbagai sumber menjadi Knowledge Base AI.
+
+Target repository:
+
+Google Drive
+Local Folder
+OneDrive (Future)
+SharePoint (Future)
+Dropbox (Future)
