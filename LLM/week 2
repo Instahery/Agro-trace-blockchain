@@ -1,0 +1,22 @@
+Phase 2 — Google Drive Integration
+
+Berhasil membangun:
+
+OAuth Google Drive
+Refresh Token
+Google Repository Scanner
+Recursive Folder Scanner
+Google Docs Import
+PDF Import
+DOCX Import
+
+Flow:
+Google Drive
+↓
+Recursive Scan
+↓
+Document Import
+↓
+Document Pipeline
+↓
+Knowledge Base
