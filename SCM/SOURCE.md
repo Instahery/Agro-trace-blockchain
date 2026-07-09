@@ -6,30 +6,23 @@ Version : 0.1.0 (Prototype)
 Overview
 
 Modul NFC Farmer Card merupakan bagian dari Enterprise Agriculture Platform yang digunakan sebagai identitas digital petani.
-
 Aplikasi Android dibangun menggunakan B4X (B4A) sebagai mobile client, sedangkan backend menggunakan PHP Native + MySQL dengan antarmuka berbasis HTML5 yang ditampilkan melalui WebView.
-
 Seluruh data operasional disimpan pada server. Kartu NFC hanya berfungsi sebagai media identifikasi.
 
 Technology Stack
-Mobile
-B4A (B4X)
-Android NFC API
-WebView
-Backend
-PHP Native
-MySQL / MariaDB
-REST API (JSON)
-Frontend
-HTML5
-Bootstrap 5
-JavaScript
-Fetch API
-Future Integration
-Leaflet GIS
-Blockchain Traceability
-QR Hybrid
-Enterprise AI
+@Mobile
+B4A (B4X) , Android NFC API , WebView
+
+@Backend
+PHP Native --   MySQL / MariaDB   --  REST API (JSON)
+
+@Frontend
+HTML5 - Bootstrap 5 - JavaScript - Fetch API
+
+@Future Integration
+Leaflet GIS - Blockchain Traceability - QR Hybrid - Enterprise AI
+
+
 Project Structure
 mobile/
 │
@@ -57,6 +50,8 @@ server/
 ├── js/
 ├── css/
 └── config/
+
+
 Scan Flow
 Tap NFC Card
         │
@@ -154,48 +149,35 @@ farmer_card_mapping
     │
     ▼
 farmer
-Suggested Tables
-farmer
+****Suggested Tables
+****farmer
+****farm_polygon
+****farmer_card
+****farmer_card_mapping
+****seed_distribution
+****fertilizer_distribution
+****harvest_transaction
+****production_lot
+****scan_log
 
-farm_polygon
-
-farmer_card
-
-farmer_card_mapping
-
-seed_distribution
-
-fertilizer_distribution
-
-harvest_transaction
-
-production_lot
-
-scan_log
 API Summary
-
 Read Farmer
-
 GET
 /api/get_farmer.php?uid={UID}
 
 Register Card
-
 POST
 /api/register_card.php
 
 Save Seed Distribution
-
 POST
 /api/save_seed.php
 
 Save Fertilizer Distribution
-
 POST
 /api/save_fertilizer.php
 
 Save Harvest
-
 POST
 /api/save_harvest.php
 WebView Communication
